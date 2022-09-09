@@ -10,7 +10,15 @@ namespace FirstCsharpkindof
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter and epic number");
+            int reply = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i < reply + 1; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.ReadLine();
         }
     }
 }
